@@ -5,7 +5,7 @@ Description: >-
 Parameters:
   ECSCluster:
      Type: String
-     Default:   ecs-alb-ECSCluster-FqfkBmqpkm1F
+     Default:   myecs-cluster
   VpcId:
     Type: AWS::EC2::VPC::Id
     Description: Select a VPC that allows instances access to the Internet.
